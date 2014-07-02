@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068CBDA3195AD5D500FEF768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDA2195AD5D500FEF768 /* AppDelegate.swift */; };
+		068CBDA8195AD5D500FEF768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068CBDA6195AD5D500FEF768 /* Main.storyboard */; };
+		068CBDAA195AD5D500FEF768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068CBDA9195AD5D500FEF768 /* Images.xcassets */; };
+		068CBDB6195AD5D500FEF768 /* SwiftRakuten3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDB5195AD5D500FEF768 /* SwiftRakuten3Tests.swift */; };
+		068CBDC4195AD97800FEF768 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDC3195AD97800FEF768 /* SearchViewController.swift */; };
+		068CBDC6195AD9AC00FEF768 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDC5195AD9AC00FEF768 /* ResultViewController.swift */; };
+		068CBDC8195AD9C200FEF768 /* RakutenSrearchAPIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDC7195AD9C200FEF768 /* RakutenSrearchAPIWrapper.swift */; };
+		068CBDCB195AD9F200FEF768 /* SearchingRakutenProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDCA195AD9F200FEF768 /* SearchingRakutenProducts.swift */; };
+		068CBDCD195ADA2100FEF768 /* LookingResultsProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDCC195ADA2100FEF768 /* LookingResultsProducts.swift */; };
+		068CBDD0195ADA6E00FEF768 /* RakutenProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CBDCF195ADA6E00FEF768 /* RakutenProducts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068CBDB0195AD5D500FEF768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068CBD95195AD5D500FEF768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068CBD9C195AD5D500FEF768;
+			remoteInfo = SwiftRakuten3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068CBD9D195AD5D500FEF768 /* SwiftRakuten3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRakuten3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068CBDA1195AD5D500FEF768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068CBDA2195AD5D500FEF768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		068CBDA7195AD5D500FEF768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068CBDA9195AD5D500FEF768 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		068CBDAF195AD5D500FEF768 /* SwiftRakuten3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRakuten3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068CBDB4195AD5D500FEF768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068CBDB5195AD5D500FEF768 /* SwiftRakuten3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRakuten3Tests.swift; sourceTree = "<group>"; };
+		068CBDC3195AD97800FEF768 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		068CBDC5195AD9AC00FEF768 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		068CBDC7195AD9C200FEF768 /* RakutenSrearchAPIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenSrearchAPIWrapper.swift; sourceTree = "<group>"; };
+		068CBDCA195AD9F200FEF768 /* SearchingRakutenProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchingRakutenProducts.swift; sourceTree = "<group>"; };
+		068CBDCC195ADA2100FEF768 /* LookingResultsProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookingResultsProducts.swift; sourceTree = "<group>"; };
+		068CBDCF195ADA6E00FEF768 /* RakutenProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenProducts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068CBD9A195AD5D500FEF768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068CBDAC195AD5D500FEF768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068CBD94195AD5D500FEF768 = {
+			isa = PBXGroup;
+			children = (
+				068CBD9F195AD5D500FEF768 /* SwiftRakuten3 */,
+				068CBDB2195AD5D500FEF768 /* SwiftRakuten3Tests */,
+				068CBD9E195AD5D500FEF768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068CBD9E195AD5D500FEF768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068CBD9D195AD5D500FEF768 /* SwiftRakuten3.app */,
+				068CBDAF195AD5D500FEF768 /* SwiftRakuten3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068CBD9F195AD5D500FEF768 /* SwiftRakuten3 */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDBF195AD5E600FEF768 /* Domain */,
+				068CBDC0195AD7B900FEF768 /* Application */,
+				068CBDC1195AD7C500FEF768 /* Infrastructure */,
+				068CBDC2195AD93600FEF768 /* Presentation */,
+				068CBDA2195AD5D500FEF768 /* AppDelegate.swift */,
+				068CBDA9195AD5D500FEF768 /* Images.xcassets */,
+				068CBDA0195AD5D500FEF768 /* Supporting Files */,
+			);
+			path = SwiftRakuten3;
+			sourceTree = "<group>";
+		};
+		068CBDA0195AD5D500FEF768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDA1195AD5D500FEF768 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068CBDB2195AD5D500FEF768 /* SwiftRakuten3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDB5195AD5D500FEF768 /* SwiftRakuten3Tests.swift */,
+				068CBDB3195AD5D500FEF768 /* Supporting Files */,
+			);
+			path = SwiftRakuten3Tests;
+			sourceTree = "<group>";
+		};
+		068CBDB3195AD5D500FEF768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDB4195AD5D500FEF768 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068CBDBF195AD5E600FEF768 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDCE195ADA4F00FEF768 /* context */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		068CBDC0195AD7B900FEF768 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDCA195AD9F200FEF768 /* SearchingRakutenProducts.swift */,
+				068CBDCC195ADA2100FEF768 /* LookingResultsProducts.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		068CBDC1195AD7C500FEF768 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDC7195AD9C200FEF768 /* RakutenSrearchAPIWrapper.swift */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		068CBDC2195AD93600FEF768 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDA6195AD5D500FEF768 /* Main.storyboard */,
+				068CBDC3195AD97800FEF768 /* SearchViewController.swift */,
+				068CBDC5195AD9AC00FEF768 /* ResultViewController.swift */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		068CBDCE195ADA4F00FEF768 /* context */ = {
+			isa = PBXGroup;
+			children = (
+				068CBDCF195ADA6E00FEF768 /* RakutenProducts.swift */,
+			);
+			name = context;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068CBD9C195AD5D500FEF768 /* SwiftRakuten3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068CBDB9195AD5D500FEF768 /* Build configuration list for PBXNativeTarget "SwiftRakuten3" */;
+			buildPhases = (
+				068CBD99195AD5D500FEF768 /* Sources */,
+				068CBD9A195AD5D500FEF768 /* Frameworks */,
+				068CBD9B195AD5D500FEF768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRakuten3;
+			productName = SwiftRakuten3;
+			productReference = 068CBD9D195AD5D500FEF768 /* SwiftRakuten3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		068CBDAE195AD5D500FEF768 /* SwiftRakuten3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068CBDBC195AD5D500FEF768 /* Build configuration list for PBXNativeTarget "SwiftRakuten3Tests" */;
+			buildPhases = (
+				068CBDAB195AD5D500FEF768 /* Sources */,
+				068CBDAC195AD5D500FEF768 /* Frameworks */,
+				068CBDAD195AD5D500FEF768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068CBDB1195AD5D500FEF768 /* PBXTargetDependency */,
+			);
+			name = SwiftRakuten3Tests;
+			productName = SwiftRakuten3Tests;
+			productReference = 068CBDAF195AD5D500FEF768 /* SwiftRakuten3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068CBD95195AD5D500FEF768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Eri Tange";
+				TargetAttributes = {
+					068CBD9C195AD5D500FEF768 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					068CBDAE195AD5D500FEF768 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 068CBD9C195AD5D500FEF768;
+					};
+				};
+			};
+			buildConfigurationList = 068CBD98195AD5D500FEF768 /* Build configuration list for PBXProject "SwiftRakuten3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 068CBD94195AD5D500FEF768;
+			productRefGroup = 068CBD9E195AD5D500FEF768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068CBD9C195AD5D500FEF768 /* SwiftRakuten3 */,
+				068CBDAE195AD5D500FEF768 /* SwiftRakuten3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068CBD9B195AD5D500FEF768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBDA8195AD5D500FEF768 /* Main.storyboard in Resources */,
+				068CBDAA195AD5D500FEF768 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068CBDAD195AD5D500FEF768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068CBD99195AD5D500FEF768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBDC4195AD97800FEF768 /* SearchViewController.swift in Sources */,
+				068CBDD0195ADA6E00FEF768 /* RakutenProducts.swift in Sources */,
+				068CBDA3195AD5D500FEF768 /* AppDelegate.swift in Sources */,
+				068CBDCD195ADA2100FEF768 /* LookingResultsProducts.swift in Sources */,
+				068CBDC8195AD9C200FEF768 /* RakutenSrearchAPIWrapper.swift in Sources */,
+				068CBDCB195AD9F200FEF768 /* SearchingRakutenProducts.swift in Sources */,
+				068CBDC6195AD9AC00FEF768 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068CBDAB195AD5D500FEF768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBDB6195AD5D500FEF768 /* SwiftRakuten3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068CBDB1195AD5D500FEF768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068CBD9C195AD5D500FEF768 /* SwiftRakuten3 */;
+			targetProxy = 068CBDB0195AD5D500FEF768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		068CBDA6195AD5D500FEF768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068CBDA7195AD5D500FEF768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068CBDB7195AD5D500FEF768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		068CBDB8195AD5D500FEF768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068CBDBA195AD5D500FEF768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftRakuten3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		068CBDBB195AD5D500FEF768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftRakuten3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		068CBDBD195AD5D500FEF768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftRakuten3.app/SwiftRakuten3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftRakuten3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		068CBDBE195AD5D500FEF768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftRakuten3.app/SwiftRakuten3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftRakuten3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068CBD98195AD5D500FEF768 /* Build configuration list for PBXProject "SwiftRakuten3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBDB7195AD5D500FEF768 /* Debug */,
+				068CBDB8195AD5D500FEF768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068CBDB9195AD5D500FEF768 /* Build configuration list for PBXNativeTarget "SwiftRakuten3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBDBA195AD5D500FEF768 /* Debug */,
+				068CBDBB195AD5D500FEF768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		068CBDBC195AD5D500FEF768 /* Build configuration list for PBXNativeTarget "SwiftRakuten3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBDBD195AD5D500FEF768 /* Debug */,
+				068CBDBE195AD5D500FEF768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068CBD95195AD5D500FEF768 /* Project object */;
+}
