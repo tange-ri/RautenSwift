@@ -59,10 +59,19 @@ class ResultViewController:UITableViewController,UITableViewDataSource, UITableV
     titleLabel.text = product.title
     priceLabel.text = "\(product.price)"
     
-    var imageURL: NSURL = NSURL.URLWithString(product.imageURL)
-    var imageData: NSData = NSData(contentsOfURL: imageURL)
-    var image: UIImage = UIImage(data: imageData)
-    imageView.image = image
+        var q_global: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        var q_main: dispatch_queue_t  = dispatch_get_main_queue();
+        
+        dispatch_async(q_global, {
+            var imageURL: NSURL = NSURL.URLWithString(product.imageURL)
+            var imageData: NSData = NSData(contentsOfURL: imageURL)
+            var image: UIImage = UIImage(data: imageData)
+            
+            // 更新はmain threadで
+            dispatch_async(q_main, {
+                imageView.image = image
+                })
+            })
     
     return cell
     }

@@ -33,6 +33,7 @@ class RakutenSrearchAPIWrapper: NSObject {
             var jasonResults:NSDictionary = NSJSONSerialization.JSONObjectWithData(data, options:nil, error: nil) as NSDictionary
             
             println(jasonResults)
+            if(jasonResults["error"] != nil){return}
             
             //空の配列をつくる
             var results = RakutenProducts[]()
